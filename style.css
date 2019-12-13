@@ -108,7 +108,7 @@ header {
 .headerSocialNav {
     color: teal;
     position: absolute;
-    right: 40px;
+    left: 40px;
     top: 37%;
 }
 
@@ -149,6 +149,121 @@ header {
     bottom: 0;
     z-index: 1;
 }
+
+.about {
+    padding: 30px;
+}
+
+/* Footer Styles */
+footer {
+    background: black;
+}
+
+.bottomContainer {
+    padding: 50px ;
+}
+
+.bottomNav {
+    text-align: center;
+}
+
+.bottomNav a {
+    color: whitesmoke;
+    display: inline-block;
+}
+
+.bottomNav ul a:hover,
+.bottomNav ul a:focus  {
+  color: teal;
+}
+
+.bottomNav ul li {
+    display: inline-block;
+    font-weight: 600;
+    padding: 15px 20px;
+    text-transform: uppercase;
+}
+
+.bottom {
+    float: left;
+    width: 50%;
+    }
+
+.bottom h2 {
+    color: teal;
+    font-family: 'fuji';
+    font-size: 1.25rem;
+    padding: 20px 0 10px 0;
+}
+
+.bottomBox2 p {
+    padding-bottom: 10px;
+}
+
+form {
+    font-size: 0.9rem;
+    display: block;
+}
+
+input[type="email"] {
+    color: #232323;
+    float: left;
+    width: 70%;
+    padding: 7px 0 7px 30px;
+}
+
+input[type="submit"] {
+    color: #1f2022;
+    background: teal;
+    border: 1px solid ;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    width: 30%;
+    float: right;
+    padding: 9px 1px;
+    transition: all .3s ease;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    color: ;
+    background: #1f2022;
+    border: 2px solid #1f2022;
+}
+
+.bottomBox1 p {
+    width: 55%;
+}
+
+.bottom p{
+    color: white;
+}
+
+.bottomContact{
+    padding: 0 10%;
+    margin-bottom: 6%;
+}
+
+.copyright p {
+    color: #fcfcfc;
+    background: #00000081;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: center;
+    opacity: 0.5;
+    padding: 8px;
+}
+
+
+
+
+
+
+
+
+
+
 
 @media(max-width: 985px) {
     header {
