@@ -115,6 +115,7 @@ header {
 .headerSocialNav a {
     color: whitesmoke;
     border: 2px solid transparent;
+    padding: 7px;
 }
 
 .headerSocialNav a:hover,
@@ -150,9 +151,14 @@ header {
     z-index: 1;
 }
 
+/* About Styles */
+
+
 .about {
     padding: 30px;
 }
+
+
 
 /* Footer Styles */
 footer {
@@ -227,7 +233,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover,
 input[type="submit"]:focus {
-    color: ;
+    color: black;
     background: #1f2022;
     border: 2px solid #1f2022;
 }
