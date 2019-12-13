@@ -152,12 +152,9 @@ header {
 }
 
 /* quote styles */
-.quotebanner p {
-    /* background-color: #000; */
-}
 
 .quote {
-    padding: 0 15%;
+    padding: 8% 15%;
     text-align: center;
 }
 
@@ -356,8 +353,8 @@ input[type="submit"]:focus {
 .copyright p {
     color: #fcfcfc;
     background: #00000081;
-    font-size: 0.9rem;
-    font-weight: 600;
+    font-size: 0.7rem;
+    font-weight: 300;
     text-align: center;
     opacity: 0.5;
     padding: 8px;
