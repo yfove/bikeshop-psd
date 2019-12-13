@@ -248,6 +248,12 @@ header {
     margin: 20px;
 }
 
+.product p{
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'fuji';
+}
+
 .productContainer .product:first-child {
     margin-left: 0;
 }
