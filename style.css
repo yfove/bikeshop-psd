@@ -188,10 +188,34 @@ header {
 .post {
     text-align: center;
     vertical-align: middle;
-    line-height: 90px;
-    padding: 10%;
+    font-size: .9em;
+    /* line-height: 90px; */
+    /* padding: 10%; */
+    
 }
 
+.text {
+    padding: 16%;
+}
+
+.text h2 {
+    padding: 15px;
+    font-family: 'fuji';
+}
+
+.readMore {
+    color:black;
+    padding: 5%;
+    border: #000 solid 2px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.readMore:hover {
+    color: teal;
+    font-size: large;
+    border: teal solid 2px;
+}
 
 
 
@@ -374,4 +398,61 @@ input[type="submit"]:focus {
     .topNav ul a {
         font-size: 1.2rem;
     }
+
+    .about-grid {
+        margin: 60px;
+        grid-area: auto;
+        display: grid;
+        grid-template-areas:
+            "post1"
+            "post2"
+            "post3"
+            "post4";
+        grid-gap: 0em;
+        padding-bottom: 50px;
+        margin: 0;
+    }
 }
+
+@media(max-width: 800px) {
+    .bottomContainer a {
+        font-size: 1rem;
+    }
+
+    .bottomNav {
+        float: none;
+    }
+
+    .bottomNav ul li {
+        font-weight: 600;
+        padding: 5px 14px;
+        text-transform: none;
+    }
+
+    .bottom {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .bottomBox1 p {
+        width: 100%;
+    }
+
+    input[type="email"],
+    input[type="submit"] {
+        float: none;
+        width: 50%;
+        max-width: 50%;
+    }
+
+      input[type="email"] {
+          margin-bottom: 10px;
+          text-align: center;
+          padding: 5px 0;
+      }
+
+      .bottomBox2 {
+          font-size: .9rem;
+      }
+    }
