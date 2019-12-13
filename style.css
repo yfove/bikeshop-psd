@@ -151,14 +151,86 @@ header {
     z-index: 1;
 }
 
+/* quote styles */
+.quotebanner p {
+    /* background-color: #000; */
+}
+
+.quote {
+    padding: 0 15%;
+    text-align: center;
+}
+
+.quote p {
+    font-family: 'fuji';
+    font-size: 1.3em;
+    opacity: 50%;
+}
+
 /* About Styles */
+
+.about-grid {
+    margin: 60px;
+    grid-area: auto;
+    display: grid;
+    grid-template-areas: 
+        "post1 post2"
+        "post3 post4";
+    grid-gap: 0em;
+    padding-bottom: 50px;
+    margin: 0;
+}
+
+.post1 {
+    background-color:white;
+}
+
+.post {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    padding: 10%;
+}
+
+
 
 
 .about {
     padding: 30px;
+    float:left;
+    background-color: white;
 }
 
+.about h2 {
+    font-family: 'fuji';
+}
+/* produtcs Styles */
+.productSection {
+    padding: 80px 80px;
+}
 
+.productTitle {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.productTitle {
+    font-family: 'fuji';
+}
+
+.product {
+    float: left;
+    width: calc((100% - 80px) / 3);
+    margin: 20px;
+}
+
+.productContainer .product:first-child {
+    margin-left: 0;
+}
+
+.productContainer .product:nth-of-type(3) {
+    margin-right: 0;
+}
 
 /* Footer Styles */
 footer {
@@ -260,15 +332,6 @@ input[type="submit"]:focus {
     opacity: 0.5;
     padding: 8px;
 }
-
-
-
-
-
-
-
-
-
 
 
 @media(max-width: 985px) {
