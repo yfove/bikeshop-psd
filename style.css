@@ -658,11 +658,11 @@ input[type="submit"]:focus {
     /* background: black no-repeat; */
     background-size: cover;
     background-position: center;
-    min-height: 150vw;
+    min-height: 170vw;
   }
 
   .headerTitle h1 {
-    font-size: 4em;
+    font-size: 5em;
     padding: 5%;
     margin: 0;
   }
