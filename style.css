@@ -163,6 +163,14 @@ input::-moz-focus-inner {
 }
 
 /* styles */
+html,
+body {
+  /* height: 100%; */
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
 html {
   font-size: 1.2em;
   scroll-behavior: smooth;
@@ -584,7 +592,7 @@ input[type="submit"]:focus {
 
 @media (max-width: 800px) {
   header {
-    background: black no-repeat;
+    /* background: black no-repeat; */
     background-size: cover;
     background-position: center;
     min-height: 80vw;
@@ -636,11 +644,26 @@ input[type="submit"]:focus {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
+  html,
+  body {
+    /* height: 100%; */
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
+
   header {
-    background: black no-repeat;
+    /* background: black no-repeat; */
     background-size: cover;
     background-position: center;
     min-height: 150vw;
+  }
+
+  .headerTitle h1 {
+    font-size: 4em;
+    padding: 5%;
+    margin: 0;
   }
 }
