@@ -576,6 +576,12 @@ input[type="submit"]:focus {
     display: none;
   }
 
+  /* hambuger  */
+  .topNav .active {
+    width: 250px;
+    background-color: teal;
+  }
+
   .hamburger-box .hamburger-inner,
   .hamburger-box .hamburger-inner::before,
   .hamburger-box .hamburger-inner::after {
