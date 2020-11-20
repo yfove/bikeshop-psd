@@ -319,9 +319,6 @@ button {
   font-size: 1.2rem;
   border: none;
   background: none;
- 
-  
-
 }
 
 /* quote styles */
@@ -345,8 +342,8 @@ button {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(10rem, 100%) 1fr 1fr);
   grid-template-areas:
-  "post1 post2"
-  "post3 post4";
+    "post1 post2"
+    "post3 post4";
   grid-gap: 0em;
   padding-bottom: 50px;
 }
@@ -359,7 +356,7 @@ button {
 .post {
   text-align: center;
   vertical-align: middle;
-  font-size: 1em
+  font-size: 1em;
   /* line-height: 90px; */
   /* padding: 10%; */
 }
@@ -496,7 +493,7 @@ input[type="email"] {
 
 input[type="submit"] {
   color: #1f2022;
-  background:teal;
+  background: teal;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
@@ -506,7 +503,6 @@ input[type="submit"] {
   transition: all 0.3s ease;
   border: none;
 }
-
 
 input[type="submit"]:hover,
 input[type="submit"]:focus {
@@ -547,8 +543,8 @@ input[type="submit"]:focus {
     grid-area: auto;
     display: grid;
     grid-template-areas:
-    "post1 post2"
-    "post3 post4";
+      "post1 post2"
+      "post3 post4";
     grid-gap: 0em;
     padding-bottom: 50px;
   }
@@ -694,5 +690,11 @@ input[type="submit"]:focus {
     font-size: 5em;
     padding: 5%;
     margin: 0;
+    position: relative;
+    bottom: 60px;
+  }
+
+  .product p {
+    font-size: 1rem;
   }
 }
