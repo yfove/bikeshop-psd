@@ -562,7 +562,6 @@ input[type="submit"]:focus {
 
   header {
     min-height: 600px;
-    height: 50vw;
   }
   /* 
     header {
@@ -626,7 +625,6 @@ input[type="submit"]:focus {
     /* background: black no-repeat; */
     background-size: cover;
     background-position: center;
-    min-height: 120vw;
   }
 
   .bottomContainer a {
