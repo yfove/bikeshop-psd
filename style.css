@@ -626,7 +626,7 @@ input[type="submit"]:focus {
     /* background: black no-repeat; */
     background-size: cover;
     background-position: center;
-    min-height: 80vw;
+    min-height: 120vw;
   }
 
   .bottomContainer a {
@@ -693,7 +693,7 @@ input[type="submit"]:focus {
   }
 
   .headerTitle h1 {
-    font-size: 5em;
+    font-size: 4.5em;
     padding: 5%;
     margin: 0;
     position: relative;
