@@ -658,8 +658,8 @@ input[type="submit"]:focus {
   input[type="email"],
   input[type="submit"] {
     float: none;
-    width: 50%;
-    max-width: 50%;
+    width: 100%;
+    max-width: 100%;
   }
 
   input[type="email"] {
